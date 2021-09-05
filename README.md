@@ -27,10 +27,10 @@ We also fetch some data of shanghai housing price from http://sh.lianjia.com/che
 
 ## Github 
 All the requirement is satisfied for the first segment. 
-✓ Includes a README.md
-✓ Description of the communication protocols
-✓ At least one branch for each team member 
-✓ Each team member has at least four commits from the duration of the first segment 
+- ✓ Includes a README.md
+- ✓ Description of the communication protocols
+- ✓ At least one branch for each team member 
+- ✓ Each team member has at least four commits from the duration of the first segment 
 
 ## Model 
 - Linear Regression model is chosen to predict the housing price. It is recommanded to use linear regression to perform the prediction when the predicted output is continuous
