@@ -33,7 +33,8 @@ All the requirement is satisfied for the first segment.
 ✓ Each team member has at least four commits from the duration of the first segment 
 
 ## Model 
-
+Linear Regression model is chosen to predict the housing price. It is recommanded to use linear regression to perform the prediction when the predicted output is continuous
+Using the Provisional Machine Learning Model, we reach an accuracy of 0.5786. This can be improved by adding more features of housing information.
 
 ## Database 
 
