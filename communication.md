@@ -23,6 +23,6 @@ Within this dataset are a number of columns that capture house information in Be
 - Subway: Have(1) or not have(0) subway nearby
 - CommunityAverage: Community average price
 
-Our team is also scraping the housing price of Shanghai from [Shanghai Lianjia](https://sh.lianjia.com/chengjiao/) since we would like to compare the housing price between Beijing and Shanghai. The Shanghai dataset contains the same information as the Beijing dataset.
+Our team is also scraping the housing price of Shanghai from [Shanghai Lianjia](https://sh.lianjia.com/chengjiao/). The Shanghai dataset contains the same information as the Beijing dataset and is used to compare housing prices between Beijing and Shanghai and predict the future pricing trends for the two cities.
 
-We decided to use SQLite as our database since an entire SQLite database is stored in a single file, and this file can be shared via file transfer protocol.
+Since our Beijing dataset was preprocessed by the author and the dataset we scraped from the website was independent of the Beijing dataset, we do not need to join datasets together. The datasets have been imported into the PostgresSQL database for future use.
