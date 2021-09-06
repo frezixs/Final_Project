@@ -15,11 +15,11 @@ Within this dataset are a number of columns that capture house information in Be
 - Living Room, Drawing room, Kitchen, Bathroom: Number of rooms that houses contain
 - Building Type: Including tower(1), bungalow(2), combination of plate and tower(3), plate(4)
 - Construction time: The time of construction
-- renovation condition: Including other(1), rough(2), simplicity(3), hardcover(4)
-- building structure: Including unknow(1), mixed(2), brick and wood(3), brick and concrete(4),steel(5) and steel-concrete composite (6)
+- Renovation condition: Including other(1), rough(2), simplicity(3), hardcover(4)
+- Building structure: Including unknow(1), mixed(2), brick and wood(3), brick and concrete(4),steel(5) and steel-concrete composite (6)
 - Ladder ratio: The proportion between number of residents on the same floor and number of elevator of ladder. It describes how many ladders a resident have on average.
-- elevator: Have(1) or not have(0) elevator
-- fiveYearsProperty: If the owner have the property for less than 5 years (related to China restricted purchase of houses policy).
+- Elevator: Have(1) or not have(0) elevator
+- FiveYearsProperty: If the owner have the property for less than 5 years (related to China restricted purchase of houses policy).
 - Subway: Have(1) or not have(0) subway nearby
 - CommunityAverage: Community average price
 
