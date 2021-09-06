@@ -25,4 +25,5 @@ Within this dataset are a number of columns that capture house information in Be
 
 Our team is also scraping the housing price of Shanghai from [Shanghai Lianjia](https://sh.lianjia.com/chengjiao/). The Shanghai dataset contains the same information as the Beijing dataset and is used to compare housing prices between Beijing and Shanghai and predict the future pricing trends for the two cities.
 
+## Database
 Since our Beijing dataset was preprocessed by the author and the dataset we scraped from the website was independent of the Beijing dataset, we do not need to integrate datasets together. The datasets have been imported into the PostgresSQL database for future use.
