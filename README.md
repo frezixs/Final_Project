@@ -37,7 +37,8 @@ All the requirement is satisfied for the first segment.
 - Using the Provisional Machine Learning Model, we reach an accuracy of 0.5786. This can be improved by adding more features of housing information.
 
 ## Database 
-
+- Since our Beijing dataset was preprocessed by the author and the dataset we scraped from the website was independent of the Beijing dataset, we do not need to integrate datasets together. 
+- The datasets have been imported into the PostgresSQL database for future use.
 
 
 
