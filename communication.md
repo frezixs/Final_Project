@@ -24,3 +24,5 @@ Within this dataset are a number of columns that capture house information in Be
 - CommunityAverage: Community average price
 
 Our team is also scraping the housing price of Shanghai from [Shanghai Lianjia](https://sh.lianjia.com/chengjiao/) since we would like to compare the housing price between Beijing and Shanghai. The Shanghai dataset contains the same information as the Beijing dataset.
+
+We decided to use SQLite as our database since an entire SQLite database is stored in a single file, and this file can be shared via file transfer protocol.
