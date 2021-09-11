@@ -1,0 +1,22 @@
+body {
+    background-color: #beeebc;
+    color: #0e0101;
+  }
+
+.jumbotron {
+    background-image: url("../images/house.png");
+    background-size: 100% 100%;
+    text-align: center;;
+  }
+
+.list-group-mine .list-group-item {
+  background-color: #beeebc;
+  border-top: 1px solid #beeebc;
+  border-left-color: #beeebc;
+  border-right-color: #beeebc;
+}
+  
+.list-group-mine .list-group-item:hover {
+  background-color: rgb(107, 198, 240);
+}
+  
